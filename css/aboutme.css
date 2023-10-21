@@ -1,0 +1,27 @@
+.aboutme{
+    margin: 0%;
+    padding: 0%;
+}
+
+.aboutme img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 60px;
+}
+
+.title-presentation{
+    font-family: 'Pixelify Sans', sans-serif;
+    padding: 0%;
+    margin: 0;
+    
+    padding-left: 20px;
+}
+
+.title-presentation p{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+
+
