@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Signika';
-    src: url('/Fuentes/Signika_Negative/static/SignikaNegative-Bold.ttf') format('truetype');
+    src: url('Fuentes/SignikaNegative-Bold.ttf') format('truetype');
   }
 
 .aboutme{
