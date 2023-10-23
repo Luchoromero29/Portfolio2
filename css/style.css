@@ -3,6 +3,7 @@
 @import "navbar.css";
 @import "aboutme.css";
 @import "skills.css";
+@import "projects.css";
 
 .includes{
     width: 100%;
@@ -28,9 +29,9 @@ body{
         margin-top: 10PX;
         height: 97vh;
         border-radius: 15px;
-        background-color: brown;
+        
         overflow: hidden;
-        overflow: auto;
+        overflow-y: auto;
         box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.424);
     }
 }

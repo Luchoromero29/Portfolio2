@@ -28,6 +28,9 @@
     font-family: 'Signika Negative', sans-serif;
     font-weight: 600;
     color: white;
+    margin: 0;
+    margin-top: -5px;
+    margin-bottom: 25px;
 
 }
 
@@ -67,33 +70,7 @@
     box-shadow: 0px 3px 5px rgba(57, 57, 57, 0.68);
 }
 
-.javascript {
-    background-color: rgba(230, 231, 144, 0.464);
-}
 
-.html {
-    background-color: rgba(232, 171, 27, 0.557);
-}
-
-.css {
-    background-color: rgba(78, 148, 205, 0.582);
-}
-
-.java {
-    background-color: rgba(255, 255, 255, 0.693);
-}
-
-.mysql {
-    background-color: rgba(164, 228, 179, 0.427);
-}
-
-.bootstrap {
-    background-color: rgba(118, 33, 198, 0.429);
-}
-
-.unity {
-    background-color: rgba(93, 93, 93, 0.391);
-}
 
 .skill-icon img {
     width: 110px;
