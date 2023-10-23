@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins:wght@300&family=Rubik&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500&family=Poppins:wght@300&family=Rubik&display=swap" rel="stylesheet">
     <title>Portfolio - Luciano Romero </title>
 </head>
 <body>
@@ -15,31 +14,31 @@
     <div class="container">
         <div class="row">
 
-            <div class="navbar col-xs-12 col-s-12 col-m-12 col-l-12 col-x-12"  >
-                <div include-html="secciones/navbar.html"></div>
+            <div id="navbar"  class="navbar col-xs-12 col-s-12 col-m-12 col-l-12 col-x-12"  >
+                <div class="includes" include-html="secciones/navbar.html"></div>
             </div>
 
-            <div class="aboutme col-xs-12 col-s-12 col-m-12 col-l-12 col-x-12">
-                <div include-html="secciones/aboutme.html"></div>
+            <div id="aboutme"  class="aboutme col-xs-12 col-s-12 col-m-12 col-l-12 col-x-12">
+                <div class="includes" include-html="secciones/aboutme.html"></div>
             </div>
 
-            <div class="skills col-xs-12 col-s-12 col-m-12 col-l-12 col-x-12" style="background-color: yellow;">
+            <div id="skills"  class="skills col-xs-12 col-s-12 col-m-12 col-l-12 col-x-12">
                 <div include-html="secciones/skills.html"></div>
             </div>
 
-            <div class="projects col-xs-12 col-s-12 col-m-12 col-l-12 col-x-12" style="background-color: green;">
-                <div include-html="secciones/projects.html"></div>
+            <div  id="projects" class="projects col-xs-12 col-s-12 col-m-12 col-l-12 col-x-12" style="background-color: green;">
+                <div class="includes" include-html="secciones/projects.html"></div>
             </div>
 
-            <div class="contact col-xs-12 col-s-12 col-m-12 col-l-12 col-x-12" style="background-color: red;">
-                <div include-html="secciones/contact.html"></div>
+            <div id="contact"  class="contact col-xs-12 col-s-12 col-m-12 col-l-12 col-x-12" style="background-color: red;">
+                <div class="includes" include-html="secciones/contact.html"></div>
             </div>
             <div>
-                <li style="display: inline-block; padding: 20px; background-color: #f8b1b9;">1</li>
-                <li style="display: inline-block; padding: 20px;  background-color: #f4cb8f;">2</li>
-                <li style="display: inline-block; padding: 20px; background-color: #143a8c;">3</li>
-                <li style="display: inline-block; padding: 20px; background-color: #1d88c2;">4</li>
-                <li style="display: inline-block; padding: 20px; background-color: #20dad8;">5</li>
+                <li style="display: inline-block; padding: 20px; background-color: #f8b1b9;">1 #f8b1b9</li>
+                <li style="display: inline-block; padding: 20px;  background-color: #f4cb8f;">2 #f4cb8f</li>
+                <li style="display: inline-block; padding: 20px; background-color: #143a8c;">3 #143a8c</li>
+                <li style="display: inline-block; padding: 20px; background-color: #1d88c2;">4 #1d88c2</li>
+                <li style="display: inline-block; padding: 20px; background-color: #20dad8;">5 #20dad8</li>
             </div>
             
           
@@ -51,5 +50,6 @@
     </div>
     
     <script src="js/includes-html.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

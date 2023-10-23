@@ -1,23 +1,29 @@
+
+
 .navbar{
     background-color: var(--color3);
-    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'PixelifySans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
     display: flex;
     margin: 0;
     padding: 0;
     height: 60px;
-    
+    box-shadow: 0px 2px 4px var(--color3);
+    position: fixed;
+    max-width: 1200px;
 }
 
 .logo{
     display: grid;
     height: 100%;
     align-items: center;
+    position: relative;
     
 }
 .logo img{
     width: 100%;
+    max-width: 145px;
 }
 
 
@@ -27,7 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     height: 60px;
 }
 .index ul{
@@ -62,6 +68,10 @@
     .index a{
     font-size: 10px;
     
+    }
+
+    .logo{
+        visibility: hidden;
     }
 }
 

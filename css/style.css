@@ -3,3 +3,21 @@
 @import "navbar.css";
 @import "aboutme.css";
 @import "skills.css";
+
+.includes{
+    width: 100%;
+}
+
+body{
+    background-color: rgb(43, 43, 43);
+}
+
+
+
+@media only screen and (min-width: 1200px){
+    .container{
+        margin-top: 10px;
+        
+    }
+}
+    
