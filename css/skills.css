@@ -1,11 +1,12 @@
-.prueba2{
+.skills-fondo {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
+    margin-top: -1px ;
 }
 
-.skills-container{
+.skills-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,26 +18,27 @@
     padding: 20px;
 }
 
-.skill-icon:hover{
+.skill-icon:hover {
     scale: 1.05;
     transition: 0.15s;
 }
 
-.skills-container p{
+.skills-container p {
     font-size: 34px;
-    font-family: 'Signika-regular';
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
     color: white;
-    
+
 }
 
-.skills-container ul{
+.skills-container ul {
     margin: 0;
     padding: 0;
-    
+
 }
 
 
-.grid-habilities{
+.grid-habilities {
     list-style: none;
     display: grid;
     text-align: center;
@@ -51,47 +53,71 @@
     flex-direction: column;
 }
 
-.skill-icon span{
+.skill-icon span {
     margin-top: 5px;
-    font-family: 'Signika-regular';
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
     font-size: 18px;
     color: white;
 }
-.padding-img{
+
+.padding-img {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 3px 5px rgba(57, 57, 57, 0.68);
 }
 
-.javascript{
+.javascript {
     background-color: rgba(230, 231, 144, 0.464);
 }
 
-.html{
+.html {
     background-color: rgba(232, 171, 27, 0.557);
 }
-.css{
+
+.css {
     background-color: rgba(78, 148, 205, 0.582);
 }
-.java{
+
+.java {
     background-color: rgba(255, 255, 255, 0.693);
 }
-.mysql{
+
+.mysql {
     background-color: rgba(164, 228, 179, 0.427);
 }
-.bootstrap{
+
+.bootstrap {
     background-color: rgba(118, 33, 198, 0.429);
 }
-.unity{
+
+.unity {
     background-color: rgba(93, 93, 93, 0.391);
 }
 
-.skill-icon img{
+.skill-icon img {
     width: 110px;
 }
 
+@media only screen and (max-width: 600px) {
+    .grid-habilities {
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    }
 
-@font-face {
-    font-family: 'Signika-regular';
-    src: url('fuentes/Signika_Negative/static/SignikaNegative-Regular.ttf') format('truetype');
-  }
+    .skill-icon img {
+        width: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .grid-habilities {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .skill-icon img {
+        width: 80px;
+    }
+
+}
