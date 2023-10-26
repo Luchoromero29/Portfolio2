@@ -3,16 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center ;
-    margin-top: -1px;
+    
 }
 
 .projects-etiqueta{
-    background-color: var(--color5);
+    background-color: rgb(64, 226, 255);
     border-radius: 15px;
     padding-left: 7px;
     padding-right: 7px;
-    margin-top: 25px;
-    margin-bottom: 25px;
     box-shadow: 0px 3px 5px var(--color4);
 
 }
@@ -32,7 +30,7 @@
 
 
 .projects-model{
-    background-color: var(--color3);
+    background-color: aliceblue;
     padding: 10px;
     scale: 0.95;
     display: flex;
@@ -40,8 +38,8 @@
     gap: 15px;
     border-radius: 10px;
     height: 500px;
-    color: white;
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.603);
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.356);
     
 }
 
@@ -69,7 +67,7 @@
     text-align: left;
     font-weight: 300;
     height: 110px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .projects-tecnologias {

@@ -1,12 +1,12 @@
 
 
-document.addEventListener("DOMContentLoaded", () => {
+// document.addEventListener("DOMContentLoaded", () => {
     
-    var target = document.querySelector("#contact");
+//     var target = document.querySelector("#contact");
     
-    target.scrollIntoView({block: "end", behavior: "smooth"});
+//     target.scrollIntoView({block: "end", behavior: "smooth"});
       
-})
+// })
 
 //     const habilities = [
 //         { nombre: "JavaScript", image: "icons/javascript.png", alt: "icon javascript" },
